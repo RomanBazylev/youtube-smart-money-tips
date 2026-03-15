@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 */3 * * *" # every 3 hours
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
