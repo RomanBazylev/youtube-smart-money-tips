@@ -54,11 +54,13 @@ def _load_metadata() -> dict:
             "title": data.get("title", "Smart Money Tips #shorts")[:100],
             "description": data.get("description", "#money #finance #investing #shorts"),
             "tags": data.get("tags", ["money", "finance", "investing", "shorts"]),
+            "topic": data.get("topic", ""),
         }
     return {
         "title": "Smart Money Tips #shorts",
         "description": "#money #finance #investing #shorts",
         "tags": ["money", "finance", "investing", "shorts"],
+        "topic": "",
     }
 
 
@@ -144,6 +146,12 @@ def upload_video() -> str:
             upload_resp.raise_for_status()
             video_id = upload_resp.json().get("id", "")
             print(f"  Uploaded! https://youtube.com/shorts/{video_id}")
+            try:
+                from analytics import log_upload
+                meta = _load_metadata()
+                log_upload(video_id, meta["title"], meta.get("topic", ""), meta["tags"])
+            except Exception as exc:
+                print(f"[WARN] Analytics log failed: {exc}")
             return video_id
         except Exception as exc:
             print(f"[WARN] Upload attempt {attempt}/{MAX_UPLOAD_RETRIES} failed: {exc}")
