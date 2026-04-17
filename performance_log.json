@@ -856,7 +856,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
+        "fetched_at": "2026-04-17T18:59:41.298092+00:00"
       }
     },
     {
@@ -873,10 +873,10 @@
       ],
       "uploaded_at": "2026-04-17T10:24:52.226420+00:00",
       "stats": {
-        "views": 100,
+        "views": 101,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
+        "fetched_at": "2026-04-17T18:59:41.298092+00:00"
       }
     },
     {
@@ -893,10 +893,10 @@
       ],
       "uploaded_at": "2026-04-17T13:26:55.778126+00:00",
       "stats": {
-        "views": 52,
+        "views": 91,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
+        "fetched_at": "2026-04-17T18:59:41.298092+00:00"
       }
     },
     {
@@ -915,6 +915,30 @@
         "wealth"
       ],
       "uploaded_at": "2026-04-17T16:10:29.509730+00:00",
+      "stats": {
+        "views": 9,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T18:59:41.298092+00:00"
+      }
+    },
+    {
+      "video_id": "HRB1NJ094ko",
+      "title": "Boost Freelance Rates 50% 🚀 #shorts #money",
+      "topic": "",
+      "tags": [
+        "money",
+        "finance",
+        "shorts",
+        "freelance",
+        "pricing",
+        "income",
+        "career",
+        "investing",
+        "wealth",
+        "personalfinance"
+      ],
+      "uploaded_at": "2026-04-17T19:08:25.902816+00:00",
       "stats": null
     }
   ]
