@@ -853,10 +853,10 @@
       ],
       "uploaded_at": "2026-04-17T08:13:19.380254+00:00",
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-17T13:17:46.165741+00:00"
+        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
       }
     },
     {
@@ -873,10 +873,10 @@
       ],
       "uploaded_at": "2026-04-17T10:24:52.226420+00:00",
       "stats": {
-        "views": 4,
+        "views": 100,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-17T13:17:46.165741+00:00"
+        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
       }
     },
     {
@@ -892,6 +892,29 @@
         "shorts"
       ],
       "uploaded_at": "2026-04-17T13:26:55.778126+00:00",
+      "stats": {
+        "views": 52,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T16:00:29.286832+00:00"
+      }
+    },
+    {
+      "video_id": "-E4Lq-XRUaw",
+      "title": "Debt Payoff Secrets 🚀 #shorts #money",
+      "topic": "",
+      "tags": [
+        "debt",
+        "finance",
+        "shorts",
+        "investing",
+        "moneytips",
+        "personalfinance",
+        "financialfreedom",
+        "money",
+        "wealth"
+      ],
+      "uploaded_at": "2026-04-17T16:10:29.509730+00:00",
       "stats": null
     }
   ]
