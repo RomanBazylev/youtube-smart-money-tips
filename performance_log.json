@@ -16,7 +16,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-16T10:15:56.722239+00:00",
-      "stats": null
+      "stats": {
+        "views": 56,
+        "likes": 2,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "UUuIGkZj_MM",
@@ -35,7 +40,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-16T13:20:46.802877+00:00",
-      "stats": null
+      "stats": {
+        "views": 25,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "2XD1hQDmFUk",
@@ -53,7 +63,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-16T16:14:55.011728+00:00",
-      "stats": null
+      "stats": {
+        "views": 109,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "sHp4z2GAUGw",
@@ -72,7 +87,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-16T19:09:54.227089+00:00",
-      "stats": null
+      "stats": {
+        "views": 91,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "XxrJJUDMigQ",
@@ -89,7 +109,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-16T21:49:15.430049+00:00",
-      "stats": null
+      "stats": {
+        "views": 103,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "DNimyt8HN9A",
@@ -107,7 +132,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-17T02:09:29.583197+00:00",
-      "stats": null
+      "stats": {
+        "views": 260,
+        "likes": 3,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "Rz1Xb_02zZg",
@@ -126,7 +156,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-17T05:02:07.203207+00:00",
-      "stats": null
+      "stats": {
+        "views": 91,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "pr4LMKCVzrU",
@@ -143,7 +178,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-17T07:15:04.428323+00:00",
-      "stats": null
+      "stats": {
+        "views": 51,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "GsTsLeiGbjM",
@@ -160,7 +200,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-17T09:26:11.663737+00:00",
-      "stats": null
+      "stats": {
+        "views": 66,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "0lyegcMet64",
@@ -177,7 +222,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-17T10:05:51.289441+00:00",
-      "stats": null
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "di-enft2dF0",
@@ -194,7 +244,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-17T13:26:10.171192+00:00",
-      "stats": null
+      "stats": {
+        "views": 104,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "fYoa0YB8nrI",
@@ -216,7 +271,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-17T16:15:04.232070+00:00",
-      "stats": null
+      "stats": {
+        "views": 73,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "cUxMLsekKXs",
@@ -234,7 +294,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-17T19:09:42.366308+00:00",
-      "stats": null
+      "stats": {
+        "views": 29,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "tjpGoGCP-yE",
@@ -253,7 +318,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-17T21:45:29.726929+00:00",
-      "stats": null
+      "stats": {
+        "views": 92,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "qgU8MsUj4-M",
@@ -270,7 +340,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-18T02:17:04.390981+00:00",
-      "stats": null
+      "stats": {
+        "views": 76,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "OGyBq2rpWOE",
@@ -287,7 +362,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-18T05:05:29.161618+00:00",
-      "stats": null
+      "stats": {
+        "views": 69,
+        "likes": 3,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "8Cztth-A6R0",
@@ -304,7 +384,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-18T07:10:32.939596+00:00",
-      "stats": null
+      "stats": {
+        "views": 53,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "NSMYEnPvEyg",
@@ -323,7 +408,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-18T10:02:59.999874+00:00",
-      "stats": null
+      "stats": {
+        "views": 24,
+        "likes": 2,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "ETkFUC22nyg",
@@ -340,7 +430,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-18T13:18:02.201180+00:00",
-      "stats": null
+      "stats": {
+        "views": 23,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "3S65pxa6oUM",
@@ -362,7 +457,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-18T16:19:08.514097+00:00",
-      "stats": null
+      "stats": {
+        "views": 60,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "ue-055hxAX0",
@@ -380,7 +480,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-18T19:09:00.517461+00:00",
-      "stats": null
+      "stats": {
+        "views": 8,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "4oYwRCA5vw4",
@@ -398,7 +503,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-18T21:42:35.859337+00:00",
-      "stats": null
+      "stats": {
+        "views": 77,
+        "likes": 2,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "SucqXK0brHU",
@@ -416,7 +526,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-19T02:21:44.841895+00:00",
-      "stats": null
+      "stats": {
+        "views": 76,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "s1wpU6unP2o",
@@ -433,7 +548,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-19T05:03:29.384944+00:00",
-      "stats": null
+      "stats": {
+        "views": 227,
+        "likes": 3,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "cML94NDz_5g",
@@ -453,7 +573,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-19T07:08:16.779594+00:00",
-      "stats": null
+      "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "eNVg8YOstKM",
@@ -470,7 +595,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-19T09:56:17.935034+00:00",
-      "stats": null
+      "stats": {
+        "views": 58,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "ZKvwwkMO0A4",
@@ -487,7 +617,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-19T13:13:37.450286+00:00",
-      "stats": null
+      "stats": {
+        "views": 42,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "sCx00VVXr90",
@@ -506,7 +641,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-19T16:03:56.853104+00:00",
-      "stats": null
+      "stats": {
+        "views": 32,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "4nkAocqt-w4",
@@ -523,7 +663,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-19T19:09:40.726464+00:00",
-      "stats": null
+      "stats": {
+        "views": 124,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "nWnNelaYIss",
@@ -541,7 +686,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-19T21:45:48.144558+00:00",
-      "stats": null
+      "stats": {
+        "views": 564,
+        "likes": 10,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "GlHc-pzenLs",
@@ -560,7 +710,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-20T02:10:18.489688+00:00",
-      "stats": null
+      "stats": {
+        "views": 509,
+        "likes": 4,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "D3NZFkZEAfo",
@@ -578,7 +733,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-20T04:54:38.743574+00:00",
-      "stats": null
+      "stats": {
+        "views": 80,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "KWlsG_M0yeI",
@@ -596,7 +756,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-20T07:04:50.423872+00:00",
-      "stats": null
+      "stats": {
+        "views": 92,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "KyBBvv-eqIM",
@@ -617,7 +782,12 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-03-20T09:49:27.145391+00:00",
-      "stats": null
+      "stats": {
+        "views": 60,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "osb2PmYYpMM",
@@ -635,7 +805,12 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-20T13:09:28.383120+00:00",
-      "stats": null
+      "stats": {
+        "views": 103,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
     },
     {
       "video_id": "L7mpVbQ7ipk",
@@ -653,6 +828,30 @@
         "wealth"
       ],
       "uploaded_at": "2026-03-20T15:51:22.525002+00:00",
+      "stats": {
+        "views": 696,
+        "likes": 1,
+        "comments": 0,
+        "fetched_at": "2026-04-17T08:04:03.509274+00:00"
+      }
+    },
+    {
+      "video_id": "n6eMqzIgYCI",
+      "title": "💸 Retirement Hacks #shorts #money",
+      "topic": "",
+      "tags": [
+        "money",
+        "finance",
+        "retirement",
+        "college students",
+        "investment",
+        "savings",
+        "personalfinance",
+        "shorts",
+        "investing",
+        "wealth"
+      ],
+      "uploaded_at": "2026-04-17T08:13:19.380254+00:00",
       "stats": null
     }
   ]
