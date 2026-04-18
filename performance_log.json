@@ -856,7 +856,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -876,7 +876,7 @@
         "views": 101,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -896,7 +896,7 @@
         "views": 110,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -916,10 +916,10 @@
       ],
       "uploaded_at": "2026-04-17T16:10:29.509730+00:00",
       "stats": {
-        "views": 83,
+        "views": 89,
         "likes": 1,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -943,7 +943,7 @@
         "views": 117,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -967,10 +967,10 @@
       ],
       "uploaded_at": "2026-04-18T02:21:17.546734+00:00",
       "stats": {
-        "views": 145,
+        "views": 146,
         "likes": 1,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -993,10 +993,10 @@
       ],
       "uploaded_at": "2026-04-18T05:16:49.982144+00:00",
       "stats": {
-        "views": 618,
-        "likes": 17,
+        "views": 943,
+        "likes": 18,
         "comments": 1,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -1015,10 +1015,10 @@
       ],
       "uploaded_at": "2026-04-18T07:13:57.648226+00:00",
       "stats": {
-        "views": 284,
-        "likes": 2,
+        "views": 371,
+        "likes": 4,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -1037,10 +1037,10 @@
       ],
       "uploaded_at": "2026-04-18T09:55:30.504252+00:00",
       "stats": {
-        "views": 16,
-        "likes": 0,
+        "views": 62,
+        "likes": 1,
         "comments": 0,
-        "fetched_at": "2026-04-18T13:00:19.655543+00:00"
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
       }
     },
     {
@@ -1056,6 +1056,32 @@
         "shorts"
       ],
       "uploaded_at": "2026-04-18T13:11:07.421847+00:00",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "fetched_at": "2026-04-18T15:36:53.861976+00:00"
+      }
+    },
+    {
+      "video_id": "jUz64vWOA2k",
+      "title": "💸 Millionaires' Secret: 5% APY #shorts #money",
+      "topic": "",
+      "tags": [
+        "high-yield savings",
+        "millionaires",
+        "savings tips",
+        "personal finance",
+        "money management",
+        "saving money",
+        "investing",
+        "money",
+        "finance",
+        "shorts",
+        "wealth",
+        "personalfinance"
+      ],
+      "uploaded_at": "2026-04-18T15:47:25.168063+00:00",
       "stats": null
     }
   ]
