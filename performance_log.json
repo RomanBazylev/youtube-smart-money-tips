@@ -856,7 +856,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -876,7 +876,7 @@
         "views": 101,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -896,7 +896,7 @@
         "views": 110,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -916,10 +916,10 @@
       ],
       "uploaded_at": "2026-04-17T16:10:29.509730+00:00",
       "stats": {
-        "views": 50,
+        "views": 57,
         "likes": 1,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -940,10 +940,10 @@
       ],
       "uploaded_at": "2026-04-17T19:08:25.902816+00:00",
       "stats": {
-        "views": 115,
+        "views": 116,
         "likes": 0,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -970,7 +970,7 @@
         "views": 129,
         "likes": 1,
         "comments": 0,
-        "fetched_at": "2026-04-18T05:06:07.527542+00:00"
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
       }
     },
     {
@@ -992,6 +992,28 @@
         "personalfinance"
       ],
       "uploaded_at": "2026-04-18T05:16:49.982144+00:00",
+      "stats": {
+        "views": 182,
+        "likes": 4,
+        "comments": 1,
+        "fetched_at": "2026-04-18T07:06:33.490856+00:00"
+      }
+    },
+    {
+      "video_id": "AkcbXgcPzyE",
+      "title": "Save $3,000/yr with Index Funds 🚀 #shorts #money",
+      "topic": "",
+      "tags": [
+        "money",
+        "finance",
+        "shorts",
+        "investing",
+        "indexfunds",
+        "personalfinance",
+        "debtfree",
+        "wealth"
+      ],
+      "uploaded_at": "2026-04-18T07:13:57.648226+00:00",
       "stats": null
     }
   ]
