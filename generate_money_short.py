@@ -412,6 +412,37 @@ def _fallback_script() -> tuple:
     return parts, meta
 
 
+_OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+_OPENROUTER_MODELS = [
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemma-3-27b-it:free",
+    "mistralai/mistral-7b-instruct:free",
+]
+
+
+def _openrouter_response(body: dict) -> Optional[str]:
+    """Try OpenRouter free models in sequence. Returns raw content string or None."""
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        return None
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/RomanBazylev/youtube-smart-money-tips",
+    }
+    for model in _OPENROUTER_MODELS:
+        try:
+            or_body = {**body, "model": model}
+            resp = requests.post(_OPENROUTER_URL, headers=headers, json=or_body, timeout=45)
+            resp.raise_for_status()
+            print(f"[OpenRouter] Success with {model}")
+            return resp.json()["choices"][0]["message"]["content"]
+        except Exception as exc:
+            print(f"[WARN] OpenRouter {model} failed: {exc}")
+            time.sleep(3)
+    return None
+
+
 def call_groq_for_script() -> tuple:
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
@@ -481,20 +512,28 @@ Format — strictly JSON:
         "max_tokens": 2048,
         "response_format": {"type": "json_object"},
     }
+
+    # ── Attempt Groq (2 tries), fall back to OpenRouter ──
+    raw_content = None
     try:
         resp = requests.post(url, headers=headers, json=body, timeout=30)
         resp.raise_for_status()
+        raw_content = resp.json()["choices"][0]["message"]["content"]
     except Exception as exc:
         print(f"[WARN] Groq API attempt 1 failed: {exc}, retrying...")
         try:
             resp = requests.post(url, headers=headers, json=body, timeout=45)
             resp.raise_for_status()
+            raw_content = resp.json()["choices"][0]["message"]["content"]
         except Exception as exc2:
-            print(f"[WARN] Groq API attempt 2 failed: {exc2}, using fallback")
-            return _fallback_script()
+            print(f"[WARN] Groq API attempt 2 failed: {exc2}, trying OpenRouter...")
+            raw_content = _openrouter_response(body)
+
+    if raw_content is None:
+        return _fallback_script()
 
     try:
-        content = resp.json()["choices"][0]["message"]["content"]
+        content = raw_content
         content = re.sub(r"^```(?:json)?\s*", "", content.strip())
         content = re.sub(r"\s*```$", "", content.strip())
         start = content.find("{")
@@ -534,10 +573,17 @@ Format — strictly JSON:
         ),
     })
     body["temperature"] = 1.0
+    raw_content2 = None
     try:
         resp2 = requests.post(url, headers=headers, json=body, timeout=45)
         resp2.raise_for_status()
-        content2 = resp2.json()["choices"][0]["message"]["content"]
+        raw_content2 = resp2.json()["choices"][0]["message"]["content"]
+    except Exception:
+        raw_content2 = _openrouter_response(body)
+    if raw_content2 is None:
+        return _fallback_script()
+    try:
+        content2 = raw_content2
         content2 = re.sub(r"^```(?:json)?\s*", "", content2.strip())
         content2 = re.sub(r"\s*```$", "", content2.strip())
         start2 = content2.find("{")

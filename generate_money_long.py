@@ -54,6 +54,13 @@ TTS_RATE = "+3%"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_MODELS = [
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemma-3-27b-it:free",
+    "mistralai/mistral-7b-instruct:free",
+]
+
 PEXELS_QUERIES = [
     "money cash dollar bills", "stock market chart screen",
     "calculator finance desk", "credit card payment",
@@ -180,26 +187,47 @@ def _fix_pronunciation(text: str) -> str:
 
 
 def _groq_call(messages: list, temperature: float = 0.7, max_tokens: int = 4096, json_mode: bool = False) -> Optional[str]:
-    api_key = os.getenv("GROQ_API_KEY")
-    if not api_key:
-        return None
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     body = {
-        "model": GROQ_MODEL,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
     if json_mode:
         body["response_format"] = {"type": "json_object"}
-    for attempt in range(1, 3):
-        try:
-            r = requests.post(GROQ_URL, headers=headers, json=body, timeout=90)
-            r.raise_for_status()
-            return r.json()["choices"][0]["message"]["content"]
-        except Exception as exc:
-            print(f"[WARN] Groq attempt {attempt} failed: {exc}")
-            time.sleep(5)
+
+    # ── Try Groq first ──
+    groq_key = os.getenv("GROQ_API_KEY")
+    if groq_key:
+        groq_headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
+        groq_body = {**body, "model": GROQ_MODEL}
+        for attempt in range(1, 3):
+            try:
+                r = requests.post(GROQ_URL, headers=groq_headers, json=groq_body, timeout=90)
+                r.raise_for_status()
+                return r.json()["choices"][0]["message"]["content"]
+            except Exception as exc:
+                print(f"[WARN] Groq attempt {attempt} failed: {exc}")
+                time.sleep(5)
+
+    # ── Groq exhausted → try OpenRouter free models ──
+    or_key = os.getenv("OPENROUTER_API_KEY")
+    if or_key:
+        or_headers = {
+            "Authorization": f"Bearer {or_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/RomanBazylev/youtube-smart-money-tips",
+        }
+        for model in OPENROUTER_MODELS:
+            try:
+                or_body = {**body, "model": model}
+                r = requests.post(OPENROUTER_URL, headers=or_headers, json=or_body, timeout=90)
+                r.raise_for_status()
+                print(f"[OpenRouter] Success with {model}")
+                return r.json()["choices"][0]["message"]["content"]
+            except Exception as exc:
+                print(f"[WARN] OpenRouter {model} failed: {exc}")
+                time.sleep(3)
+
     return None
 
 
